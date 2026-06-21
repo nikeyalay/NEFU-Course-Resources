@@ -1,0 +1,16 @@
+course_name: 人工智能
+course_alias:
+  - AI
+college: 控制与信息工程学院
+majors:
+  - 电子信息工程
+course_type: 专业课
+grade_suggestion:
+  - 大三
+  - 大四
+tags:
+  - 人工智能
+  - 机器学习
+  - 神经网络
+maintainers: []
+status: active

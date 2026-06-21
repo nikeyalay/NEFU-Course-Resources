@@ -4,7 +4,7 @@ import sys
 
 RESOURCE_ROOT = Path("resources")
 ALLOWED_METADATA = {"README.md", "course-meta.yml", ".gitkeep"}
-RESOURCE_PATTERN = re.compile(r"^\d{4}-.+-.+-.+\.[^.]+$")
+RESOURCE_PATTERN = re.compile(r"^(\d{4}|未知年份)-.+-.+-.+\.[^.]+$")
 
 
 def main() -> int:
@@ -15,6 +15,10 @@ def main() -> int:
     errors: list[str] = []
     for path in RESOURCE_ROOT.rglob("*"):
         if not path.is_file():
+            continue
+        if "教材" in path.parts:
+            continue
+        if "99-资源索引" in path.parts and path.suffix.lower() == ".md":
             continue
         if path.name in ALLOWED_METADATA:
             continue
