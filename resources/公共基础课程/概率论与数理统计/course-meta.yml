@@ -1,0 +1,16 @@
+course_name: 概率论与数理统计
+course_alias:
+  - 概率论
+  - 概率统计
+college: 公共基础课程
+majors:
+  - 多数理工科专业
+course_type: 公共基础课
+grade_suggestion:
+  - 大二
+tags:
+  - 数学
+  - 概率
+  - 统计
+maintainers: []
+status: active

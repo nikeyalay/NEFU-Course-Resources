@@ -1,0 +1,15 @@
+course_name: 数字电子技术
+course_alias:
+  - 数电
+college: 控制与信息工程学院
+majors:
+  - 电子信息工程
+course_type: 专业基础课
+grade_suggestion:
+  - 大二
+tags:
+  - 电路
+  - 逻辑代数
+  - 期末考试
+maintainers: []
+status: active

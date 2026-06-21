@@ -1,0 +1,26 @@
+name: 资料请求
+description: 请求补充某门课程或某类资料
+title: "[资料请求] "
+labels: ["resource-request"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: 课程名称
+      description: 你希望补充哪门课程的资料？
+    validations:
+      required: true
+  - type: input
+    id: type
+    attributes:
+      label: 资料类型
+      description: 例如历年试卷、复习资料、实验报告、课程设计等。
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 补充说明
+      description: 请描述你需要的具体资料。
+    validations:
+      required: false

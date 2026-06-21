@@ -1,0 +1,14 @@
+course_name: 高等数学
+course_alias:
+  - 高数
+college: 公共基础课程
+majors:
+  - 多数本科专业
+course_type: 公共基础课
+grade_suggestion:
+  - 大一
+tags:
+  - 数学
+  - 期末考试
+maintainers: []
+status: active

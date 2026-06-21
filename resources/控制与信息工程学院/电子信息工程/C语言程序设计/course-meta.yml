@@ -1,0 +1,15 @@
+course_name: C语言程序设计
+course_alias:
+  - C语言
+college: 控制与信息工程学院
+majors:
+  - 电子信息工程
+course_type: 专业基础课
+grade_suggestion:
+  - 大一
+tags:
+  - 编程
+  - C语言
+  - 实验
+maintainers: []
+status: active

@@ -1,0 +1,15 @@
+course_name: 大学英语
+course_alias:
+  - 英语
+college: 公共基础课程
+majors:
+  - 多数本科专业
+course_type: 公共基础课
+grade_suggestion:
+  - 大一
+  - 大二
+tags:
+  - 英语
+  - 公共课
+maintainers: []
+status: active

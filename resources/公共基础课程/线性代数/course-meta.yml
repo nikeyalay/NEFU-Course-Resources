@@ -1,0 +1,15 @@
+course_name: 线性代数
+course_alias:
+  - 线代
+college: 公共基础课程
+majors:
+  - 多数理工科专业
+course_type: 公共基础课
+grade_suggestion:
+  - 大一
+  - 大二
+tags:
+  - 数学
+  - 矩阵
+maintainers: []
+status: active

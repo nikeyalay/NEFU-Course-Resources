@@ -1,0 +1,15 @@
+course_name: 电路分析
+course_alias:
+  - 电路
+college: 控制与信息工程学院
+majors:
+  - 电子信息工程
+course_type: 专业基础课
+grade_suggestion:
+  - 大一
+  - 大二
+tags:
+  - 电路
+  - 期末考试
+maintainers: []
+status: active

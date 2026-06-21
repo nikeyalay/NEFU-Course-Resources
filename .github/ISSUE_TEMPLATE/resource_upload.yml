@@ -1,0 +1,24 @@
+name: 资料上传咨询
+description: 不确定资料是否适合上传时使用
+title: "[上传咨询] "
+labels: ["resource-upload"]
+body:
+  - type: input
+    id: course
+    attributes:
+      label: 课程名称
+    validations:
+      required: true
+  - type: input
+    id: type
+    attributes:
+      label: 资料类型
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 资料来源和授权情况
+      description: 请说明资料来源、是否已脱敏、是否确认可以公开分享。
+    validations:
+      required: true

@@ -1,0 +1,31 @@
+name: 问题反馈
+description: 反馈版权、隐私、路径、命名或资料质量问题
+title: "[问题反馈] "
+labels: ["problem"]
+body:
+  - type: input
+    id: path
+    attributes:
+      label: 文件路径
+      description: 请填写有问题的文件或目录路径。
+    validations:
+      required: true
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: 问题类型
+      options:
+        - 版权问题
+        - 隐私问题
+        - 路径错误
+        - 命名不规范
+        - 重复资料
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 详细说明
+    validations:
+      required: true
